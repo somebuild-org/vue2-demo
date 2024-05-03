@@ -1,0 +1,25 @@
+{
+    "name": "comp-demo-vue2",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "watch": "somebuild build --watch",
+        "dev": "somebuild dev",
+        "build": "somebuild build"
+    },
+    "globals": {
+        "vue": "Vue"
+    },
+    "dependencies": {
+        "vue": "2.6.14",
+        "vue-template-compiler": "2.6.14"
+    },
+    "devDependencies": {
+        "@somebuild/build-component-vue2": "^0.0.3",
+        "somebuild": "^0.0.17"
+    },
+    "volta": {
+        "node": "18.17.1",
+        "pnpm": "9.0.6"
+    }
+}
