@@ -1,4 +1,4 @@
-import { PluginObject } from '../vue/dist/vue.esm.js';
+import { PluginObject } from 'vue';
 
 import * as components from "./components";
 export default components;
