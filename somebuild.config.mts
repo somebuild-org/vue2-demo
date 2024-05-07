@@ -14,6 +14,7 @@ export default defineRootConfig({
         dtsEntryRoot: "src",
         entry: "src/index.ts",
         config: {
+            devWatchMode: true,
             vite: {
                 resolve: {
                     alias: {

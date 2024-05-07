@@ -1,5 +1,5 @@
 {
-    "name": "comp-demo-vue2",
+    "name": "vaguer-button",
     "type": "module",
     "private": true,
     "scripts": {
@@ -15,8 +15,11 @@
         "vue-template-compiler": "2.6.14"
     },
     "devDependencies": {
-        "@somebuild/build-component-vue2": "^0.0.3",
-        "somebuild": "^0.0.17"
+        "@somebuild/build-component-vue2": "^0.0.6",
+        "@somebuild/vite-config-vue2": "^1.0.1",
+        "@types/node": "^20.12.10",
+        "sass": "^1.77.0",
+        "somebuild": "^0.0.19"
     },
     "volta": {
         "node": "18.17.1",

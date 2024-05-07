@@ -1,5 +1,5 @@
 import Vue from "vue";
-import { VaguerComponents } from "./dist/comp-demo-vue2";
+import { VaguerComponents } from "./src";
 
 Vue.use(VaguerComponents);
 
