@@ -1,7 +1,8 @@
 {
-    "name": "vaguer-button",
+    "name": "vue2-somebuild",
     "type": "module",
-    "private": true,
+    "main": "./dist/vaguer-button.js",
+    "typings": "./dist/index.d.ts",
     "scripts": {
         "watch": "somebuild build --watch",
         "dev": "somebuild dev",
@@ -18,6 +19,7 @@
         "@somebuild/build-component-vue2": "^0.0.6",
         "@somebuild/vite-config-vue2": "^1.0.1",
         "@types/node": "^20.12.10",
+        "gh-pages": "^6.1.1",
         "sass": "^1.77.0",
         "somebuild": "^0.0.19"
     },

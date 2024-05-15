@@ -19,7 +19,9 @@ export default defineRootConfig({
                 resolve: {
                     alias: {
                         "@": "./src",
-                        vue: "vue/dist/vue.esm.js",
+                        ...(process.env.DEV
+                            ? { vue: "vue/dist/vue.esm.js" }
+                            : {}),
                     },
                 },
             },

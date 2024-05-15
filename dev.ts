@@ -1,5 +1,6 @@
 import Vue from "vue";
-import { VaguerComponents } from "./src";
+import { VaguerComponents } from "./dist/vaguer-button.js";
+import "./dist/style.css"
 
 Vue.use(VaguerComponents);
 
