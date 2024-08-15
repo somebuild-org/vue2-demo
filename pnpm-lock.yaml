@@ -7,13 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      vue:
-        specifier: 2.6.14
-        version: 2.6.14
-      vue-template-compiler:
-        specifier: 2.6.14
-        version: 2.6.14
     devDependencies:
       '@somebuild/build-component-vue2':
         specifier: ^0.0.6
@@ -33,6 +26,12 @@ importers:
       somebuild:
         specifier: ^0.0.19
         version: 0.0.19(@somebuild/build-component-vue2@0.0.6)
+      vue:
+        specifier: 2.6.14
+        version: 2.6.14
+      vue-template-compiler:
+        specifier: 2.6.14
+        version: 2.6.14
 
 packages:
 

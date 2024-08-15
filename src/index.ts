@@ -10,8 +10,5 @@ export const VaguerComponents: PluginObject<{}> = {
         });
     },
 };
-console.log(22);
 
-// START_EXPORTS
 export { default as VaguerButton } from "./components/VaguerButton";
-// END_EXPORTS

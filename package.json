@@ -1,21 +1,36 @@
 {
-    "name": "vue2-somebuild",
+    "name": "vaguer",
     "type": "module",
-    "main": "./dist/vaguer-button.js",
+    "main": "./dist/vaguer.js",
+    "module": "./dist/vaguer.js",
     "typings": "./dist/index.d.ts",
     "scripts": {
         "watch": "somebuild build --watch",
         "dev": "somebuild dev",
         "build": "somebuild build"
     },
+    "exports": {
+        ".": {
+            "import": "./dist/vaguer.js",
+            "require": "./dist/vaguer.cjs"
+        },
+        "./style.css": {
+            "import": "./dist/style.css",
+            "require": "./dist/style.css"
+        }
+    },
+    "files": [
+        "dist"
+    ],
     "globals": {
         "vue": "Vue"
     },
-    "dependencies": {
-        "vue": "2.6.14",
-        "vue-template-compiler": "2.6.14"
+    "peerDependencies": {
+        "vue": "<= 2.6.14"
     },
     "devDependencies": {
+        "vue": "2.6.14",
+        "vue-template-compiler": "2.6.14",
         "@somebuild/build-component-vue2": "^0.0.6",
         "@somebuild/vite-config-vue2": "^1.0.1",
         "@types/node": "^20.12.10",
